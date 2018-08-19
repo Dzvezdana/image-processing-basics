@@ -3,23 +3,23 @@
 [**processing_gui**](https://github.com/Dzvezdana/image-processing-basics/tree/master/processing_gui)  
 Allows the user to apply a filter, add (and removed the added) noise and plot a historgram of an image.  
 The following features are implemented:  
-	- Salt and Pepper noise (together or separately)
-	- Gauss noise
-	- Median filter
-	- Mean filter
-	- Max filter
-	- Min filter
-	- High Pass filter
-	- Low Pass filter
-	- Histogram plot
-	- Adjust kernel size
-	- Adjust pepper value
-	- Adjust salt value
-	- Adjust sigma value
-	- Adjust dilation kernel
-	- Adjust erosion kernel
-	- Adjust LPF/HPF/mean filter size
-	- Remove noise
+Salt and Pepper noise (together or separately)
+* Gauss noise
+* Median filter
+* Mean filter
+* Max filter
+* Min filter
+* High Pass filter
+* Low Pass filter
+* Histogram plot
+* Adjust kernel size
+* Adjust pepper value
+* Adjust salt value
+* Adjust sigma value
+* Adjust dilation kernel
+* Adjust erosion kernel
+* Adjust LPF/HPF/mean filter size
+* Remove noise
   
 A sample image [cat.jpg](https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/processing_gui/cat.jpg) is provided, but any other image .png or .jpg image can be used.  
   
@@ -56,9 +56,9 @@ python morphology_gui.py
 [**Singular Value Equalization**](https://github.com/Dzvezdana/image-processing-basics/tree/master/SVE)  
 
 Implementation of image equalization based on singular value decomposition. The singular value matrix represents the intensity information of an image. Thus any change on the singular values results in a change of the intensity of the input image. This procedure is carried out using the following steps:  
-	- convert the image into the SVD domain,  
-	- normalize the singular value matrix,  
-	- reconstructs the image in the spatial domain by using the updated singular value matrix.  
+* convert the image into the SVD domain,  
+* normalize the singular value matrix,  
+* reconstructs the image in the spatial domain by using the updated singular value matrix.  
 
 Execute using:  
 ```shell
