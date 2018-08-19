@@ -1,8 +1,8 @@
 # Description
 
-**processing_gui**
-Allows the user to apply a filter, add (and removed the added) noise and plot a historgram of an image.
-The following things are implemented:
+**processing_gui**  
+Allows the user to apply a filter, add (and removed the added) noise and plot a historgram of an image.  
+The following features are implemented:  
 	* Salt and Pepper noise (together or separately)
 	* Gauss noise
 	* Median filter
@@ -28,8 +28,7 @@ Execute using:
 python processing_gui.py
 ```
 
-**Output**
-processing_gui:    
+**Output**     
 <p align="center">
 	<img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/processing_gui/gui_image.png">  
 </p>
@@ -43,11 +42,11 @@ python hoffman_coding.py
 
 **morphology_gui**
 
-1. Eliminate all squares less than 15: erosion followed by dilation of a structuring element of 5x5.
-2. Noise filtering: opening followed by closing using 8x8 structuring element.
-3. Boundary extraction: apply erosion on the image using a 5x5 structuring element and subtract the eroded image from the original image. A thicker boundary can be obtained by increasing the size of the structuring element.
-4. Blob region filling: using region filling algorithm.
-5. Count all squares in an image
+1. *Eliminate small squares*. Implemented using erosion followed by dilation of a structuring element of 5x5.
+2. *Noise filtering*. Implemented using opening followed by closing using 8x8 structuring element.
+3. *Boundary extraction*. Implemented by appling erosion on the image using a 5x5 structuring element and then subtracting the eroded image from the original image. A thicker boundary can be obtained by increasing the size of the structuring element.
+4. *Blob region filling*. Region filling algorithm was used.
+5. *Count all squares in an image*.
 
 Execute using:  
 ```shell
