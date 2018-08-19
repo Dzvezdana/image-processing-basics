@@ -1,8 +1,9 @@
 # Description
 
-**processing_gui**  
+[**processing_gui**](https://github.com/Dzvezdana/image-processing-basics/tree/master/processing_gui)  
 Allows the user to apply a filter, add (and removed the added) noise and plot a historgram of an image.  
-The following features are implemented:  
+The following features are implemented: 
+
 	* Salt and Pepper noise (together or separately)
 	* Gauss noise
 	* Median filter
@@ -33,14 +34,14 @@ python processing_gui.py
 	<img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/processing_gui/gui_image.png">  
 </p>
 
-**hoffman_encoding**
+[**hoffman_encoding**](https://github.com/Dzvezdana/image-processing-basics/tree/master/huffman_coding)  
 
 Execute using:  
 ```shell
 python hoffman_coding.py
 ```
 
-**morphology_gui**
+[**morphology_operations**](https://github.com/Dzvezdana/image-processing-basics/tree/master/morphological_operations)  
 
 1. *Eliminate small squares*. Implemented using erosion followed by dilation of a structuring element of 5x5.
 2. *Noise filtering*. Implemented using opening followed by closing using 8x8 structuring element.
@@ -53,12 +54,13 @@ Execute using:
 python morphology_gui.py
 ```
 
-**Singular Value Equalization**
+[**Singular Value Equalization**](https://github.com/Dzvezdana/image-processing-basics/tree/master/SVE)  
 
-Implementation of image equalization based on singular value decomposition. The singular value matrix represents the intensity information of an image/ Thus any change on the singular values results in a change of the intensity of the input image. This procedure is carried out using the following steps: 
-	* convert the image into the SVD domain
-	* normalize the singular value matrix
-	* reconstructs the image in the spatial domain by using the updated singular value matrix
+Implementation of image equalization based on singular value decomposition. The singular value matrix represents the intensity information of an image. Thus any change on the singular values results in a change of the intensity of the input image. This procedure is carried out using the following steps:  
+
+	* convert the image into the SVD domain  
+	* normalize the singular value matrix  
+	* reconstructs the image in the spatial domain by using the updated singular value matrix  
 
 Execute using:  
 ```shell
