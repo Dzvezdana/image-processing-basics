@@ -70,34 +70,34 @@ python SVE.py
 Detects and centers presentation images.
 
 **Output**     
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/1.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/1_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/1.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/1_updated.jpg" width="300" /> 
 </p>
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/2.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/2_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/2.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/2_updated.jpg" width="300" /> 
 </p>
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/3.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/3_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/3.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/3_updated.jpg" width="300" /> 
 </p>
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/4.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/4_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/4.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/4_updated.jpg" width="300" /> 
 </p>
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/5.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/5_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/5.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/5_updated.jpg" width="300" /> 
 </p>
 
-<p float="left">
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/6.jpg" width="100" />
-  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/6_updated.jpg" width="100" /> 
+<p float="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/6.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/presentation_perspective_transformation/results/6_updated.jpg" width="300" /> 
 </p>
 
 Execute using:  
