@@ -5,18 +5,20 @@ __author__ = "Dzvezdana Arsovska"
 import numpy as np
 import cv2
 import argparse
-import os, sys, inspect
+import os, sys, inspect 
 import image_utils as utils
 from imutils import *
 from imutils.perspective import four_point_transform
 import glob
+
+# Loads images sequentially, detect and centers the presentation and saves the output images.
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--img_dir", required=True, help="Path to the input images")
 args = vars(ap.parse_args())
 
-directory = args["image"]
+directory = args["img_dir"]
 for filename in glob.glob(directory):
 	print(filename)
 	#load the image

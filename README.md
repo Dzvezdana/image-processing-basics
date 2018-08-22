@@ -102,7 +102,7 @@ Detects and centers presentation images.
 
 Execute using:  
 ```shell
-python perspective_transform.py --image "path_to_image_directory/*.jpg"
+python perspective_transform.py --img_dir "path_to_image_directory/*.jpg"
 ```
 
 # Requirements
