@@ -1,6 +1,7 @@
 # Description
 
 [**processing_gui**](https://github.com/Dzvezdana/image-processing-basics/tree/master/processing_gui)  
+
 Allows the user to apply a filter, add (and removed the added) noise and plot a historgram of an image.  
 The following features are implemented:  
 Salt and Pepper noise (together or separately)
@@ -33,7 +34,9 @@ python processing_gui.py
 	<img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/processing_gui/gui_image.png">  
 </p>
 
-[**hoffman_encoding**](https://github.com/Dzvezdana/image-processing-basics/tree/master/huffman_coding)  
+[**huffman_encoding**](https://github.com/Dzvezdana/image-processing-basics/tree/master/huffman_coding)   
+  
+Implementation of Huffman coding and decoding.
 
 Execute using:  
 ```shell
@@ -47,6 +50,17 @@ python hoffman_coding.py
 3. *Boundary extraction*. Implemented by appling erosion on the image using a 5x5 structuring element and then subtracting the eroded image from the original image. A thicker boundary can be obtained by increasing the size of the structuring element.
 4. *Blob region filling*. Region filling algorithm was used.
 5. *Count all squares in an image*.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/morphological_operations/results/1.png" width="300" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/morphological_operations/results/2.png" width="300" /> 
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/morphological_operations/results/3.png" width="300" /> 
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/morphological_operations/results/4.png" width="300" />
+  <img src="https://raw.githubusercontent.com/Dzvezdana/image-processing-basics/master/morphological_operations/results/5.png" width="300" /> 
+</p>
 
 Execute using:  
 ```shell
@@ -66,8 +80,15 @@ python SVE.py
 ```
 
 [**presentation_perspective_transformation**](https://github.com/Dzvezdana/image-processing-basics/tree/master/presentation_perspective_transformation)  
-
-Detects and centers presentation images.
+  
+Detects and centers presentation images.  
+Steps:  
+1. Convert image to Grayscale and apply adaptive tresholding.
+2. Smooth the image using median filter and find edges using Canny edge detector.
+3. Find and approximate contour.
+4. Find the largest contour that has 4 corners and check if the inner angles are 90°.
+5. Apply 4 points transformation.
+6. Save the output image.
 
 **Output**     
 <p align="center">

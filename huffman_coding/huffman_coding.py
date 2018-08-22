@@ -65,7 +65,7 @@ R_tree3=make_tree(R_tree1,R_tree2)
 
 #TREE MERGED
 F_tree=make_tree(L_tree6,R_tree3)
-print (F_tree)
+print(F_tree)
 print('')
 
 #PART 2
@@ -96,7 +96,7 @@ def huffman_encode(sym,tree):
     encoding=[]
     
     for s in sym:
-        encoding.extend(huffman_encode_symbol(s,tree)) #extend is list extension
+        encoding.extend(huffman_encode_symbol(s,tree))
     return encoding
 
 def huffman_decode(data,tree):
@@ -130,9 +130,9 @@ print('')
 print('CHECK RESULT:')
 print('')
 
-proba=huffman_encode('Three witches watch three swatch watches. Which witch watches which swatch watch',F_tree)
+check=huffman_encode('Three witches watch three swatch watches. Which witch watches which swatch watch',F_tree)
 
-res=''.join((proba))
+res=''.join((check))
 original='001111111100110000000110011001001010011100010101100111011010100111110010111001100000001101010011101101010011111001110110101001110001010001111011000111011100101001111100110010010100111110011101101010011100010101100111110010100111110101001110110101001111100111011010100111'
 if res==original:
     print('CHECK CONFIRMED')
